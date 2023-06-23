@@ -1,13 +1,12 @@
-# INPUT
+'''def compareTriplets(a, b):
+    # Write your code here
+    ...
 
-ar = list(range(2, 10, 2))
-print(ar)
-
-
-# YOUR CODE HERE
-multi = 1
-
-for item in ar:
-    multi *= item
-
-print(multi)
+compareTriplets(a=(5 6 7,
+3 6 10)'''
+''''''
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+thislist.clear()
+print(thislist)
